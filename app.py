@@ -8,6 +8,7 @@ you need to bootstrap your database, create good-looking XML documents,
 
 app = Flask(__name__)
 fake = Faker()
+# ETL pipeline
 
 pizza_data = {
     "Margherita": ["Tomato", "Mozzarella", "Basil"],
